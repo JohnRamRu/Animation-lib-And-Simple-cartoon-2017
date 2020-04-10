@@ -1,0 +1,26 @@
+var _j_r_anima_lib_8h =
+[
+    [ "drawBall", "_j_r_anima_lib_8h.html#a36c349ab05bac9445997d42467cc13eb", null ],
+    [ "drawCloud", "_j_r_anima_lib_8h.html#a1a81380db54efaeff178bf72e0690b12", null ],
+    [ "drawDerevo", "_j_r_anima_lib_8h.html#a1ac8242a349b0b87cd8ba312dbaefebd", null ],
+    [ "drawHouse", "_j_r_anima_lib_8h.html#aab5d776a606bad71941652ee6d94b28f", null ],
+    [ "drawHuman", "_j_r_anima_lib_8h.html#ada8514811d4b86a3912b0d25f3c7d686", null ],
+    [ "drawNarutoAll", "_j_r_anima_lib_8h.html#ac8ca2fd69b567f1c3f195b13430dafd7", null ],
+    [ "drawNarutoBelt", "_j_r_anima_lib_8h.html#a5567eaab62dcc32b34f5f8ce1c9730cb", null ],
+    [ "drawNarutoFace", "_j_r_anima_lib_8h.html#ab6d13db75f08d3c28e0a58ad88e27654", null ],
+    [ "drawNarutoHair", "_j_r_anima_lib_8h.html#a5c71be4c04240490bffad56ea7360b58", null ],
+    [ "drawNarutoMouth", "_j_r_anima_lib_8h.html#a374f6eace1cded6ef7ae25dadfde92cb", null ],
+    [ "drawPacman", "_j_r_anima_lib_8h.html#aa5f71c0aedc7f361898887e63cb1ff81", null ],
+    [ "drawStarLogo", "_j_r_anima_lib_8h.html#ad331d99d3f00e56d20421209b04d1880", null ],
+    [ "drawSun", "_j_r_anima_lib_8h.html#a33346f3c62f1f5972065f186bb679415", null ],
+    [ "MYNEWBLUE", "_j_r_anima_lib_8h.html#ade6f98e609ad45ee20f0e049bbdcd69a", null ],
+    [ "MYNEWBLUE2", "_j_r_anima_lib_8h.html#a20fe365a998585c4dd9483acecc62175", null ],
+    [ "MYNEWBROWN", "_j_r_anima_lib_8h.html#ac96d7d9bf6c9677024804b3121207d81", null ],
+    [ "MYNEWDARKGOLD", "_j_r_anima_lib_8h.html#a0725b6328bbfcfa94e116db54c98b117", null ],
+    [ "MYNEWFACE", "_j_r_anima_lib_8h.html#a8972456097f20b852b37fb4f3f6ee700", null ],
+    [ "MYNEWGRAY", "_j_r_anima_lib_8h.html#afa4683de41f6d8c70530b3e6220f1f0f", null ],
+    [ "MYNEWMOUNTH", "_j_r_anima_lib_8h.html#aad3342527b77fc87fe3d33e7262fc782", null ],
+    [ "MYNEWORANGE", "_j_r_anima_lib_8h.html#a80a7d415a3e56a49c3b13fa64d042ef0", null ],
+    [ "MYNEWRED", "_j_r_anima_lib_8h.html#a0be5b1359ab3f555ae705b15d929365e", null ],
+    [ "MYNEWYELLOW", "_j_r_anima_lib_8h.html#a412b2eea4479c082097124a478dc53ad", null ]
+];

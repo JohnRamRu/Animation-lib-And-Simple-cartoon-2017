@@ -1,0 +1,342 @@
+\hypertarget{_j_r_anima_lib_8h}{}\section{Файл C\+:/\+Users/\+John\+Ram/\+Desktop/\+J\+R\+Anima\+Lib/\+J\+R\+Anima\+Lib.h}
+\label{_j_r_anima_lib_8h}\index{C\+:/\+Users/\+John\+Ram/\+Desktop/\+J\+R\+Anima\+Lib/\+J\+R\+Anima\+Lib.\+h@{C\+:/\+Users/\+John\+Ram/\+Desktop/\+J\+R\+Anima\+Lib/\+J\+R\+Anima\+Lib.\+h}}
+{\ttfamily \#include \char`\"{}T\+Xlib.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$cstdlib$>$}\newline
+{\ttfamily \#include $<$ctime$>$}\newline
+{\ttfamily \#include $<$locale.\+h$>$}\newline
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a1a81380db54efaeff178bf72e0690b12}{draw\+Cloud}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Создание достаточно кривого облачка для вашего неба \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a1ac8242a349b0b87cd8ba312dbaefebd}{draw\+Derevo}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Создание 2 деревьев для заднего фона \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_ad331d99d3f00e56d20421209b04d1880}{draw\+Star\+Logo}} (int x, int y, double s)
+\begin{DoxyCompactList}\small\item\em Рисует логотип Star\+Wars. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a36c349ab05bac9445997d42467cc13eb}{draw\+Ball}} (int x, int y, int r, C\+O\+L\+O\+R\+R\+EF ball\+Color, int ball\+Out\+Sise, C\+O\+L\+O\+R\+R\+EF ball\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF line\+Color, int line\+Sise, C\+O\+L\+O\+R\+R\+EF middle\+Ball\+Color, int midlle\+Ball\+Out\+Sise, C\+O\+L\+O\+R\+R\+EF middle\+Ball\+Fill\+Color)
+\begin{DoxyCompactList}\small\item\em Рисует мяч, похожий на очертание бразильского флага \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_ada8514811d4b86a3912b0d25f3c7d686}{draw\+Human}} (int x, int y, int headR, C\+O\+L\+O\+R\+R\+EF head\+Color, int head\+Out\+Sise, C\+O\+L\+O\+R\+R\+EF head\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF body\+Color, int body\+Sise, bool hand\+Happy, bool face)
+\begin{DoxyCompactList}\small\item\em Рисует кастомного человека, он достаточно кривой) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a33346f3c62f1f5972065f186bb679415}{draw\+Sun}} (int x, int y, int r, C\+O\+L\+O\+R\+R\+EF sun\+Color, int sun\+Out\+Sise, C\+O\+L\+O\+R\+R\+EF sun\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF sun\+Line\+Color, int sun\+Line\+Sise, bool face\+Sun, bool middle\+Line, bool other\+Line)
+\begin{DoxyCompactList}\small\item\em Рисует солнышко. ОНО ОЧЕНЬ УПОРОТОЕ, ИСПОЛЬЗУЙТЕ НА СВОЙ СТАРХ И РИСК \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_aab5d776a606bad71941652ee6d94b28f}{draw\+House}} (int x, int y, C\+O\+L\+O\+R\+R\+EF house\+Color, int sise\+Line\+House, C\+O\+L\+O\+R\+R\+EF house\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF window\+Color, int window\+Line\+Sise, C\+O\+L\+O\+R\+R\+EF window\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF line\+In\+Window\+Color, int sise\+Line\+In\+Window)
+\begin{DoxyCompactList}\small\item\em Рисует красивый домик. Немного простенький, но для мультика сойдет) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_ac8ca2fd69b567f1c3f195b13430dafd7}{draw\+Naruto\+All}} (int z, int k, int L, C\+O\+L\+O\+R\+R\+EF face\+Color, C\+O\+L\+O\+R\+R\+EF eye\+Color, C\+O\+L\+O\+R\+R\+EF belt\+Color, bool animation, C\+O\+L\+O\+R\+R\+EF up\+Hair\+Color, C\+O\+L\+O\+R\+R\+EF middle\+Hair\+Color, C\+O\+L\+O\+R\+R\+EF down\+Hair\+Color)
+\begin{DoxyCompactList}\small\item\em Рисует НАРУТО. Рисует только голову! Очень много кода, и, наверное это самый лучший объект. Код собиранный по частям! \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_aa5f71c0aedc7f361898887e63cb1ff81}{draw\+Pacman}} (int x, int y, int headR, int eatR, int eyeR, C\+O\+L\+O\+R\+R\+EF pac\+Color, C\+O\+L\+O\+R\+R\+EF pac\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF eye\+Color, C\+O\+L\+O\+R\+R\+EF eye\+Fill\+Color, C\+O\+L\+O\+R\+R\+EF eat\+Color, C\+O\+L\+O\+R\+R\+EF eat\+Fill\+Color)
+\begin{DoxyCompactList}\small\item\em Рисует Пакмена. Обычный Пакмен. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a5567eaab62dcc32b34f5f8ce1c9730cb}{draw\+Naruto\+Belt}} (int z, int k, C\+O\+L\+O\+R\+R\+EF belt\+Color)
+\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_ab6d13db75f08d3c28e0a58ad88e27654}{draw\+Naruto\+Face}} (int z, int k, C\+O\+L\+O\+R\+R\+EF face\+Color, C\+O\+L\+O\+R\+R\+EF eye\+Color, bool animation)
+\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a5c71be4c04240490bffad56ea7360b58}{draw\+Naruto\+Hair}} (int z, int k, int L, C\+O\+L\+O\+R\+R\+EF up\+Hair\+Color, C\+O\+L\+O\+R\+R\+EF middle\+Hair\+Color, C\+O\+L\+O\+R\+R\+EF down\+Hair\+Color)
+\item 
+void \mbox{\hyperlink{_j_r_anima_lib_8h_a374f6eace1cded6ef7ae25dadfde92cb}{draw\+Naruto\+Mouth}} (int z, int k, bool animation)
+\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW}} = R\+GB (255, 255, 0)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a0be5b1359ab3f555ae705b15d929365e}{M\+Y\+N\+E\+W\+R\+ED}} = R\+GB (255, 0, 0)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a80a7d415a3e56a49c3b13fa64d042ef0}{M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE}} = R\+GB (255, 165, 0)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a0725b6328bbfcfa94e116db54c98b117}{M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD}} = R\+GB (255, 187, 60)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_ade6f98e609ad45ee20f0e049bbdcd69a}{M\+Y\+N\+E\+W\+B\+L\+UE}} = R\+GB (0, 0, 128)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_afa4683de41f6d8c70530b3e6220f1f0f}{M\+Y\+N\+E\+W\+G\+R\+AY}} = R\+GB (192, 192, 192)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a8972456097f20b852b37fb4f3f6ee700}{M\+Y\+N\+E\+W\+F\+A\+CE}} = R\+GB (253, 228, 200)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_a20fe365a998585c4dd9483acecc62175}{M\+Y\+N\+E\+W\+B\+L\+U\+E2}} = R\+GB (0, 191, 255)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_ac96d7d9bf6c9677024804b3121207d81}{M\+Y\+N\+E\+W\+B\+R\+O\+WN}} = R\+GB (143, 60, 18)
+\item 
+C\+O\+L\+O\+R\+R\+EF \mbox{\hyperlink{_j_r_anima_lib_8h_aad3342527b77fc87fe3d33e7262fc782}{M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH}} = R\+GB (250, 128, 114)
+\end{DoxyCompactItemize}
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a36c349ab05bac9445997d42467cc13eb}\label{_j_r_anima_lib_8h_a36c349ab05bac9445997d42467cc13eb}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Ball@{draw\+Ball}}
+\index{draw\+Ball@{draw\+Ball}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Ball()}{drawBall()}}
+{\footnotesize\ttfamily void draw\+Ball (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{r,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{ball\+Color,  }\item[{int}]{ball\+Out\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{ball\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{line\+Color,  }\item[{int}]{line\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{middle\+Ball\+Color,  }\item[{int}]{midlle\+Ball\+Out\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{middle\+Ball\+Fill\+Color }\end{DoxyParamCaption})}
+
+
+
+Рисует мяч, похожий на очертание бразильского флага 
+
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение центра мяча относительно X}
+y -\/ отвечает за положение центра мяча относительно Y r -\/ размер мяча (для истинного размера -\/ 50) ball\+Color -\/ цвет заливки обводки мяча ball\+Out\+Sise -\/ размер линии обводки мяча ball\+Fill\+Color -\/ цвет заливки основного пространства мяча line\+Color -\/ цвет заливки символа line\+Sise -\/ размер линии символа middle\+Ball\+Color -\/ цвет заливки обводки центрального шарика midlle\+Ball\+Out\+Sise -\/ размер центрального маленького шарика middle\+Ball\+Fill\+Color -\/ цвет заливки основного пространства центрального шарика
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_a36c349ab05bac9445997d42467cc13eb}{drawBall}}(950, 500, 50, TX\_GREEN, 5, TX\_RED, TX\_BLUE, 5, TX\_BLACK, 2, TX\_WHITE);\textcolor{comment}{//рисуем мячик}
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_a1a81380db54efaeff178bf72e0690b12}\label{_j_r_anima_lib_8h_a1a81380db54efaeff178bf72e0690b12}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Cloud@{draw\+Cloud}}
+\index{draw\+Cloud@{draw\+Cloud}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Cloud()}{drawCloud()}}
+{\footnotesize\ttfamily void draw\+Cloud (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Создание достаточно кривого облачка для вашего неба 
+
+\begin{DoxyParagraph}{x -\/ отвечает за положение центра облака относительно X}
+y -\/ отвечает за положение центра облака относительно Y
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_a1a81380db54efaeff178bf72e0690b12}{drawCloud}}(125, 125);\textcolor{comment}{//Рисует облачко, ничего особенного}
+\end{DoxyCode}
+ //\}-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/--- \mbox{\Hypertarget{_j_r_anima_lib_8h_a1ac8242a349b0b87cd8ba312dbaefebd}\label{_j_r_anima_lib_8h_a1ac8242a349b0b87cd8ba312dbaefebd}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Derevo@{draw\+Derevo}}
+\index{draw\+Derevo@{draw\+Derevo}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Derevo()}{drawDerevo()}}
+{\footnotesize\ttfamily void draw\+Derevo (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Создание 2 деревьев для заднего фона 
+
+\begin{DoxyNote}{Заметки}
+Рекомендуемо, для зацикленного прорисывывания
+\end{DoxyNote}
+\begin{DoxyWarning}{Предупреждения}
+Создает паттерн (квадрат), где создаются 2 дерева, верхний левый угол -\/ самая левая точка на деревьях и самая верхняя. 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение верхнего левого угла паттерна относительно X}
+y -\/ отвечает за положение верхнего левого угла паттерна относительно Y
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\textcolor{keywordtype}{int} k=500;
+\textcolor{keywordflow}{while}(k<0)\{
+\mbox{\hyperlink{_j_r_anima_lib_8h_a1ac8242a349b0b87cd8ba312dbaefebd}{drawDerevo}}(k, 125);
+k=k-50;
+\}
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_aab5d776a606bad71941652ee6d94b28f}\label{_j_r_anima_lib_8h_aab5d776a606bad71941652ee6d94b28f}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+House@{draw\+House}}
+\index{draw\+House@{draw\+House}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+House()}{drawHouse()}}
+{\footnotesize\ttfamily void draw\+House (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{house\+Color,  }\item[{int}]{sise\+Line\+House,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{house\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{window\+Color,  }\item[{int}]{window\+Line\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{window\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{line\+In\+Window\+Color,  }\item[{int}]{sise\+Line\+In\+Window }\end{DoxyParamCaption})}
+
+
+
+Рисует красивый домик. Немного простенький, но для мультика сойдет) 
+
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение дома относительно X (центр дома -\/ центр окна)}
+y -\/ отвечает за положение дома относительно Y (центр дома -\/ центр окна) house\+Color -\/ цвет заливки обводки дома sise\+Line\+House -\/ размер линии обводки дома house\+Fill\+Color -\/ цвет заливки дома window\+Color -\/ цвет заливки обводки окна window\+Line\+Sise -\/ размер обводки окна window\+Fill\+Color -\/ цвет заливки окна line\+In\+Window\+Color -\/ цвет заливки решеток на окне sise\+Line\+In\+Window -\/ размер линий решеток на окне
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_aab5d776a606bad71941652ee6d94b28f}{drawHouse}}(750, 500, TX\_BLACK, 5, TX\_RED, TX\_BLUE, 5, TX\_GREEN, TX\_BLUE, 3);
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_ada8514811d4b86a3912b0d25f3c7d686}\label{_j_r_anima_lib_8h_ada8514811d4b86a3912b0d25f3c7d686}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Human@{draw\+Human}}
+\index{draw\+Human@{draw\+Human}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Human()}{drawHuman()}}
+{\footnotesize\ttfamily void draw\+Human (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{headR,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{head\+Color,  }\item[{int}]{head\+Out\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{head\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{body\+Color,  }\item[{int}]{body\+Sise,  }\item[{bool}]{hand\+Happy,  }\item[{bool}]{face }\end{DoxyParamCaption})}
+
+
+
+Рисует кастомного человека, он достаточно кривой) 
+
+\begin{DoxyNote}{Заметки}
+Рекомендуемо, для рисования дергающегося человека в мультике
+\end{DoxyNote}
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение человечка относительно X}
+y -\/ отвечает за положение человечка относительно Y headR -\/ размер головы (для истинного размера -\/ 10) head\+Color -\/ цвет заливки обводки головы head\+Out\+Sise -\/ размер линии обводки головы head\+Fill\+Color -\/ цвет заливки основного пространства головы body\+Color -\/ цвет заливки тела body\+Sise -\/ размер линии символа hand\+Happy -\/ если 1, то поднимает руки, если 0, то нет face -\/ если 1, то отображает достаточно кривое лицо (глаза и рот)
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_ada8514811d4b86a3912b0d25f3c7d686}{drawHuman}}(450, 400, 40, TX\_BLACK, 5, TX\_WHITE, TX\_BLACK, 5, \textcolor{keyword}{false}, \textcolor{keyword}{true});\textcolor{comment}{//рисуем спокойного
+       человечка}
+txSleep(500);
+\mbox{\hyperlink{_j_r_anima_lib_8h_ada8514811d4b86a3912b0d25f3c7d686}{drawHuman}}(450, 400, 40, TX\_BLACK, 5, TX\_WHITE, TX\_BLACK, 5, \textcolor{keyword}{false}, \textcolor{keyword}{true});\textcolor{comment}{//ТЕПЕРЬ ОН ОЖИЛ, БЕГИТЕ!}
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_ac8ca2fd69b567f1c3f195b13430dafd7}\label{_j_r_anima_lib_8h_ac8ca2fd69b567f1c3f195b13430dafd7}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Naruto\+All@{draw\+Naruto\+All}}
+\index{draw\+Naruto\+All@{draw\+Naruto\+All}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Naruto\+All()}{drawNarutoAll()}}
+{\footnotesize\ttfamily void draw\+Naruto\+All (\begin{DoxyParamCaption}\item[{int}]{z,  }\item[{int}]{k,  }\item[{int}]{L,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{face\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eye\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{belt\+Color,  }\item[{bool}]{animation,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{up\+Hair\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{middle\+Hair\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{down\+Hair\+Color }\end{DoxyParamCaption})}
+
+
+
+Рисует НАРУТО. Рисует только голову! Очень много кода, и, наверное это самый лучший объект. Код собиранный по частям! 
+
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{z -\/ отвечает за положение головы относительно X (центр дома -\/ центр окна)}
+k -\/ отвечает за положение головы относительно Y (центр дома -\/ центр окна) L -\/ размер волос face\+Color -\/ цвет лица (заливка+контур) eye\+Color -\/ цвет глаз (заливка+контур) belt\+Color -\/ цвет повязки (заливка+контур) animation -\/ true = анимация рта up\+Hair\+Color -\/ цвет верхних волос middle\+Hair\+Color -\/ цвет серединных волос down\+Hair\+Color -\/ цвет нижних волос
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_ac8ca2fd69b567f1c3f195b13430dafd7}{drawNarutoAll}}(950, 500, 5, TX\_PINK, TX\_CUAN, TX\_BLUE, \textcolor{keyword}{true}, TX\_RED, TX\_ORANGE, TX\_YELLOW);
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_a5567eaab62dcc32b34f5f8ce1c9730cb}\label{_j_r_anima_lib_8h_a5567eaab62dcc32b34f5f8ce1c9730cb}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Naruto\+Belt@{draw\+Naruto\+Belt}}
+\index{draw\+Naruto\+Belt@{draw\+Naruto\+Belt}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Naruto\+Belt()}{drawNarutoBelt()}}
+{\footnotesize\ttfamily void draw\+Naruto\+Belt (\begin{DoxyParamCaption}\item[{int}]{z,  }\item[{int}]{k,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{belt\+Color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_ab6d13db75f08d3c28e0a58ad88e27654}\label{_j_r_anima_lib_8h_ab6d13db75f08d3c28e0a58ad88e27654}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Naruto\+Face@{draw\+Naruto\+Face}}
+\index{draw\+Naruto\+Face@{draw\+Naruto\+Face}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Naruto\+Face()}{drawNarutoFace()}}
+{\footnotesize\ttfamily void draw\+Naruto\+Face (\begin{DoxyParamCaption}\item[{int}]{z,  }\item[{int}]{k,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{face\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eye\+Color,  }\item[{bool}]{animation }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a5c71be4c04240490bffad56ea7360b58}\label{_j_r_anima_lib_8h_a5c71be4c04240490bffad56ea7360b58}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Naruto\+Hair@{draw\+Naruto\+Hair}}
+\index{draw\+Naruto\+Hair@{draw\+Naruto\+Hair}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Naruto\+Hair()}{drawNarutoHair()}}
+{\footnotesize\ttfamily void draw\+Naruto\+Hair (\begin{DoxyParamCaption}\item[{int}]{z,  }\item[{int}]{k,  }\item[{int}]{L,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{up\+Hair\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{middle\+Hair\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{down\+Hair\+Color }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a374f6eace1cded6ef7ae25dadfde92cb}\label{_j_r_anima_lib_8h_a374f6eace1cded6ef7ae25dadfde92cb}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Naruto\+Mouth@{draw\+Naruto\+Mouth}}
+\index{draw\+Naruto\+Mouth@{draw\+Naruto\+Mouth}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Naruto\+Mouth()}{drawNarutoMouth()}}
+{\footnotesize\ttfamily void draw\+Naruto\+Mouth (\begin{DoxyParamCaption}\item[{int}]{z,  }\item[{int}]{k,  }\item[{bool}]{animation }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_aa5f71c0aedc7f361898887e63cb1ff81}\label{_j_r_anima_lib_8h_aa5f71c0aedc7f361898887e63cb1ff81}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Pacman@{draw\+Pacman}}
+\index{draw\+Pacman@{draw\+Pacman}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Pacman()}{drawPacman()}}
+{\footnotesize\ttfamily void draw\+Pacman (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{headR,  }\item[{int}]{eatR,  }\item[{int}]{eyeR,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{pac\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{pac\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eye\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eye\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eat\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{eat\+Fill\+Color }\end{DoxyParamCaption})}
+
+
+
+Рисует Пакмена. Обычный Пакмен. 
+
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение пакмена относительно X}
+y -\/ отвечает за положение пакмена относительно Y headR -\/ радиус пакмена eatR -\/ радиус еды для пакмена eyeR -\/ радиус глаза pac\+Color -\/ цвет обводки Пакмена pac\+Fill\+Color -\/ цвет заливки Пакмена eye\+Color -\/ цвет обводки глаза eye\+Fill\+Color -\/ цвет заливки глаза eat\+Color -\/ цвет обводки еды eat\+Fill\+Color -\/ цвет заливки еды
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_aa5f71c0aedc7f361898887e63cb1ff81}{drawPacman}}(750, 400, 192, 10, 25, TX\_YELLOW, TX\_YELLOW, TX\_BLACK, TX\_BLACK, TX\_NULL, TX\_NULL);
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_ad331d99d3f00e56d20421209b04d1880}\label{_j_r_anima_lib_8h_ad331d99d3f00e56d20421209b04d1880}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Star\+Logo@{draw\+Star\+Logo}}
+\index{draw\+Star\+Logo@{draw\+Star\+Logo}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Star\+Logo()}{drawStarLogo()}}
+{\footnotesize\ttfamily void draw\+Star\+Logo (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{double}]{s }\end{DoxyParamCaption})}
+
+
+
+Рисует логотип Star\+Wars. 
+
+\begin{DoxyWarning}{Предупреждения}
+Логотип -\/ не текстовый вид, все отрисовывается отдельно 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение верхнего левого угла логотипа относительно X}
+y -\/ отвечает за положение верхнего левого угла логотипа относительно Y s -\/ размер логотипа (для истинного размера -\/ 1)
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_ad331d99d3f00e56d20421209b04d1880}{drawStarLogo}}(300, 250, 2);\textcolor{comment}{//рисуем логотип}
+\end{DoxyCode}
+ \mbox{\Hypertarget{_j_r_anima_lib_8h_a33346f3c62f1f5972065f186bb679415}\label{_j_r_anima_lib_8h_a33346f3c62f1f5972065f186bb679415}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!draw\+Sun@{draw\+Sun}}
+\index{draw\+Sun@{draw\+Sun}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{draw\+Sun()}{drawSun()}}
+{\footnotesize\ttfamily void draw\+Sun (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{r,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{sun\+Color,  }\item[{int}]{sun\+Out\+Sise,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{sun\+Fill\+Color,  }\item[{C\+O\+L\+O\+R\+R\+EF}]{sun\+Line\+Color,  }\item[{int}]{sun\+Line\+Sise,  }\item[{bool}]{face\+Sun,  }\item[{bool}]{middle\+Line,  }\item[{bool}]{other\+Line }\end{DoxyParamCaption})}
+
+
+
+Рисует солнышко. ОНО ОЧЕНЬ УПОРОТОЕ, ИСПОЛЬЗУЙТЕ НА СВОЙ СТАРХ И РИСК 
+
+\begin{DoxyWarning}{Предупреждения}
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+\end{DoxyWarning}
+\begin{DoxyParagraph}{x -\/ отвечает за положение солнца относительно X}
+y -\/ отвечает за положение солнца относительно Y r -\/ размер солнца (для истинного размера -\/ 25) sun\+Color -\/ цвет заливки обводки солнца sun\+Out\+Sise -\/ размер линии обводки солнца sun\+Fill\+Color -\/ цвет заливки основного пространства солнца sun\+Line\+Color -\/ цвет заливки лучей sun\+Line\+Sise -\/ размер лучей face\+Sun -\/ если 1, отображает достаточно кривое лицо (глаза и рот) middle\+Line -\/ если 1, то рисует серединные линии 4 сторон (под 90, 180, -\/90, 0 градусов) other\+Line -\/ если 1, то рисует побочные линии 4 сторон
+\end{DoxyParagraph}
+
+\begin{DoxyCode}
+\mbox{\hyperlink{_j_r_anima_lib_8h_a33346f3c62f1f5972065f186bb679415}{drawSun}}(75, 75, 25, \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 2, \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 
+      \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 2, \textcolor{keyword}{true}, \textcolor{keyword}{true}, \textcolor{keyword}{false});\textcolor{comment}{//рисуем солнце}
+txSleep(500);
+\mbox{\hyperlink{_j_r_anima_lib_8h_a33346f3c62f1f5972065f186bb679415}{drawSun}}(75, 75, 25, \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 2, \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 
+      \mbox{\hyperlink{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}{MYNEWYELLOW}}, 2, \textcolor{keyword}{true}, \textcolor{keyword}{false}, \textcolor{keyword}{true});\textcolor{comment}{//также рисуем солнце, но уже немного анимированное}
+\end{DoxyCode}
+ 
+
+\subsection{Переменные}
+\mbox{\Hypertarget{_j_r_anima_lib_8h_ade6f98e609ad45ee20f0e049bbdcd69a}\label{_j_r_anima_lib_8h_ade6f98e609ad45ee20f0e049bbdcd69a}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+B\+L\+UE@{M\+Y\+N\+E\+W\+B\+L\+UE}}
+\index{M\+Y\+N\+E\+W\+B\+L\+UE@{M\+Y\+N\+E\+W\+B\+L\+UE}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+B\+L\+UE}{MYNEWBLUE}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+B\+L\+UE = R\+GB (0, 0, 128)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a20fe365a998585c4dd9483acecc62175}\label{_j_r_anima_lib_8h_a20fe365a998585c4dd9483acecc62175}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+B\+L\+U\+E2@{M\+Y\+N\+E\+W\+B\+L\+U\+E2}}
+\index{M\+Y\+N\+E\+W\+B\+L\+U\+E2@{M\+Y\+N\+E\+W\+B\+L\+U\+E2}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+B\+L\+U\+E2}{MYNEWBLUE2}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+B\+L\+U\+E2 = R\+GB (0, 191, 255)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_ac96d7d9bf6c9677024804b3121207d81}\label{_j_r_anima_lib_8h_ac96d7d9bf6c9677024804b3121207d81}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+B\+R\+O\+WN@{M\+Y\+N\+E\+W\+B\+R\+O\+WN}}
+\index{M\+Y\+N\+E\+W\+B\+R\+O\+WN@{M\+Y\+N\+E\+W\+B\+R\+O\+WN}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+B\+R\+O\+WN}{MYNEWBROWN}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+B\+R\+O\+WN = R\+GB (143, 60, 18)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a0725b6328bbfcfa94e116db54c98b117}\label{_j_r_anima_lib_8h_a0725b6328bbfcfa94e116db54c98b117}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD@{M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD}}
+\index{M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD@{M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD}{MYNEWDARKGOLD}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+D\+A\+R\+K\+G\+O\+LD = R\+GB (255, 187, 60)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a8972456097f20b852b37fb4f3f6ee700}\label{_j_r_anima_lib_8h_a8972456097f20b852b37fb4f3f6ee700}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+F\+A\+CE@{M\+Y\+N\+E\+W\+F\+A\+CE}}
+\index{M\+Y\+N\+E\+W\+F\+A\+CE@{M\+Y\+N\+E\+W\+F\+A\+CE}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+F\+A\+CE}{MYNEWFACE}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+F\+A\+CE = R\+GB (253, 228, 200)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_afa4683de41f6d8c70530b3e6220f1f0f}\label{_j_r_anima_lib_8h_afa4683de41f6d8c70530b3e6220f1f0f}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+G\+R\+AY@{M\+Y\+N\+E\+W\+G\+R\+AY}}
+\index{M\+Y\+N\+E\+W\+G\+R\+AY@{M\+Y\+N\+E\+W\+G\+R\+AY}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+G\+R\+AY}{MYNEWGRAY}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+G\+R\+AY = R\+GB (192, 192, 192)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_aad3342527b77fc87fe3d33e7262fc782}\label{_j_r_anima_lib_8h_aad3342527b77fc87fe3d33e7262fc782}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH@{M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH}}
+\index{M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH@{M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH}{MYNEWMOUNTH}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+M\+O\+U\+N\+TH = R\+GB (250, 128, 114)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a80a7d415a3e56a49c3b13fa64d042ef0}\label{_j_r_anima_lib_8h_a80a7d415a3e56a49c3b13fa64d042ef0}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE@{M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE}}
+\index{M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE@{M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE}{MYNEWORANGE}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+O\+R\+A\+N\+GE = R\+GB (255, 165, 0)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a0be5b1359ab3f555ae705b15d929365e}\label{_j_r_anima_lib_8h_a0be5b1359ab3f555ae705b15d929365e}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+R\+ED@{M\+Y\+N\+E\+W\+R\+ED}}
+\index{M\+Y\+N\+E\+W\+R\+ED@{M\+Y\+N\+E\+W\+R\+ED}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+R\+ED}{MYNEWRED}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+R\+ED = R\+GB (255, 0, 0)}
+
+\mbox{\Hypertarget{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}\label{_j_r_anima_lib_8h_a412b2eea4479c082097124a478dc53ad}} 
+\index{J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}!M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW@{M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW}}
+\index{M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW@{M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW}!J\+R\+Anima\+Lib.\+h@{J\+R\+Anima\+Lib.\+h}}
+\subsubsection{\texorpdfstring{M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW}{MYNEWYELLOW}}
+{\footnotesize\ttfamily C\+O\+L\+O\+R\+R\+EF M\+Y\+N\+E\+W\+Y\+E\+L\+L\+OW = R\+GB (255, 255, 0)}
+

@@ -1,0 +1,340 @@
+.TH "C:/Users/JohnRam/Desktop/JRAnimaLib/JRAnimaLib.h" 3 "Ср 24 Янв 2018" "My Project" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/JohnRam/Desktop/JRAnimaLib/JRAnimaLib.h
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'TXlib\&.h'\fP
+.br
+\fC#include <cstdlib>\fP
+.br
+\fC#include <ctime>\fP
+.br
+\fC#include <locale\&.h>\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBdrawCloud\fP (int x, int y)"
+.br
+.RI "Создание достаточно кривого облачка для вашего неба "
+.ti -1c
+.RI "void \fBdrawDerevo\fP (int x, int y)"
+.br
+.RI "Создание 2 деревьев для заднего фона "
+.ti -1c
+.RI "void \fBdrawStarLogo\fP (int x, int y, double s)"
+.br
+.RI "Рисует логотип StarWars\&. "
+.ti -1c
+.RI "void \fBdrawBall\fP (int x, int y, int r, COLORREF ballColor, int ballOutSise, COLORREF ballFillColor, COLORREF lineColor, int lineSise, COLORREF middleBallColor, int midlleBallOutSise, COLORREF middleBallFillColor)"
+.br
+.RI "Рисует мяч, похожий на очертание бразильского флага "
+.ti -1c
+.RI "void \fBdrawHuman\fP (int x, int y, int headR, COLORREF headColor, int headOutSise, COLORREF headFillColor, COLORREF bodyColor, int bodySise, bool handHappy, bool face)"
+.br
+.RI "Рисует кастомного человека, он достаточно кривой) "
+.ti -1c
+.RI "void \fBdrawSun\fP (int x, int y, int r, COLORREF sunColor, int sunOutSise, COLORREF sunFillColor, COLORREF sunLineColor, int sunLineSise, bool faceSun, bool middleLine, bool otherLine)"
+.br
+.RI "Рисует солнышко\&. ОНО ОЧЕНЬ УПОРОТОЕ, ИСПОЛЬЗУЙТЕ НА СВОЙ СТАРХ И РИСК "
+.ti -1c
+.RI "void \fBdrawHouse\fP (int x, int y, COLORREF houseColor, int siseLineHouse, COLORREF houseFillColor, COLORREF windowColor, int windowLineSise, COLORREF windowFillColor, COLORREF lineInWindowColor, int siseLineInWindow)"
+.br
+.RI "Рисует красивый домик\&. Немного простенький, но для мультика сойдет) "
+.ti -1c
+.RI "void \fBdrawNarutoAll\fP (int z, int k, int L, COLORREF faceColor, COLORREF eyeColor, COLORREF beltColor, bool animation, COLORREF upHairColor, COLORREF middleHairColor, COLORREF downHairColor)"
+.br
+.RI "Рисует НАРУТО\&. Рисует только голову! Очень много кода, и, наверное это самый лучший объект\&. Код собиранный по частям! "
+.ti -1c
+.RI "void \fBdrawPacman\fP (int x, int y, int headR, int eatR, int eyeR, COLORREF pacColor, COLORREF pacFillColor, COLORREF eyeColor, COLORREF eyeFillColor, COLORREF eatColor, COLORREF eatFillColor)"
+.br
+.RI "Рисует Пакмена\&. Обычный Пакмен\&. "
+.ti -1c
+.RI "void \fBdrawNarutoBelt\fP (int z, int k, COLORREF beltColor)"
+.br
+.ti -1c
+.RI "void \fBdrawNarutoFace\fP (int z, int k, COLORREF faceColor, COLORREF eyeColor, bool animation)"
+.br
+.ti -1c
+.RI "void \fBdrawNarutoHair\fP (int z, int k, int L, COLORREF upHairColor, COLORREF middleHairColor, COLORREF downHairColor)"
+.br
+.ti -1c
+.RI "void \fBdrawNarutoMouth\fP (int z, int k, bool animation)"
+.br
+.in -1c
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "COLORREF \fBMYNEWYELLOW\fP = RGB (255, 255, 0)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWRED\fP = RGB (255, 0, 0)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWORANGE\fP = RGB (255, 165, 0)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWDARKGOLD\fP = RGB (255, 187, 60)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWBLUE\fP = RGB (0, 0, 128)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWGRAY\fP = RGB (192, 192, 192)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWFACE\fP = RGB (253, 228, 200)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWBLUE2\fP = RGB (0, 191, 255)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWBROWN\fP = RGB (143, 60, 18)"
+.br
+.ti -1c
+.RI "COLORREF \fBMYNEWMOUNTH\fP = RGB (250, 128, 114)"
+.br
+.in -1c
+.SH "Функции"
+.PP 
+.SS "void drawBall (int x, int y, int r, COLORREF ballColor, int ballOutSise, COLORREF ballFillColor, COLORREF lineColor, int lineSise, COLORREF middleBallColor, int midlleBallOutSise, COLORREF middleBallFillColor)"
+
+.PP
+Рисует мяч, похожий на очертание бразильского флага 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBx - отвечает за положение центра мяча относительно X\fP
+.RS 4
+y - отвечает за положение центра мяча относительно Y r - размер мяча (для истинного размера - 50) ballColor - цвет заливки обводки мяча ballOutSise - размер линии обводки мяча ballFillColor - цвет заливки основного пространства мяча lineColor - цвет заливки символа lineSise - размер линии символа middleBallColor - цвет заливки обводки центрального шарика midlleBallOutSise - размер центрального маленького шарика middleBallFillColor - цвет заливки основного пространства центрального шарика
+.RE
+.PP
+.PP
+.nf
+drawBall(950, 500, 50, TX_GREEN, 5, TX_RED, TX_BLUE, 5, TX_BLACK, 2, TX_WHITE);//рисуем мячик
+.fi
+.PP
+ 
+.SS "void drawCloud (int x, int y)"
+
+.PP
+Создание достаточно кривого облачка для вашего неба 
+.PP
+\fBx - отвечает за положение центра облака относительно X\fP
+.RS 4
+y - отвечает за положение центра облака относительно Y
+.RE
+.PP
+.PP
+.nf
+drawCloud(125, 125);//Рисует облачко, ничего особенного
+.fi
+.PP
+ //}---------------------------------------------------------------------------------------------------------------- 
+.SS "void drawDerevo (int x, int y)"
+
+.PP
+Создание 2 деревьев для заднего фона 
+.PP
+\fBЗаметки:\fP
+.RS 4
+Рекомендуемо, для зацикленного прорисывывания
+.RE
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Создает паттерн (квадрат), где создаются 2 дерева, верхний левый угол - самая левая точка на деревьях и самая верхняя\&. 
+.RE
+.PP
+\fBx - отвечает за положение верхнего левого угла паттерна относительно X\fP
+.RS 4
+y - отвечает за положение верхнего левого угла паттерна относительно Y
+.RE
+.PP
+.PP
+.nf
+int k=500;
+while(k<0){
+drawDerevo(k, 125);
+k=k-50;
+}
+.fi
+.PP
+ 
+.SS "void drawHouse (int x, int y, COLORREF houseColor, int siseLineHouse, COLORREF houseFillColor, COLORREF windowColor, int windowLineSise, COLORREF windowFillColor, COLORREF lineInWindowColor, int siseLineInWindow)"
+
+.PP
+Рисует красивый домик\&. Немного простенький, но для мультика сойдет) 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBx - отвечает за положение дома относительно X (центр дома - центр окна)\fP
+.RS 4
+y - отвечает за положение дома относительно Y (центр дома - центр окна) houseColor - цвет заливки обводки дома siseLineHouse - размер линии обводки дома houseFillColor - цвет заливки дома windowColor - цвет заливки обводки окна windowLineSise - размер обводки окна windowFillColor - цвет заливки окна lineInWindowColor - цвет заливки решеток на окне siseLineInWindow - размер линий решеток на окне
+.RE
+.PP
+.PP
+.nf
+drawHouse(750, 500, TX_BLACK, 5, TX_RED, TX_BLUE, 5, TX_GREEN, TX_BLUE, 3);
+.fi
+.PP
+ 
+.SS "void drawHuman (int x, int y, int headR, COLORREF headColor, int headOutSise, COLORREF headFillColor, COLORREF bodyColor, int bodySise, bool handHappy, bool face)"
+
+.PP
+Рисует кастомного человека, он достаточно кривой) 
+.PP
+\fBЗаметки:\fP
+.RS 4
+Рекомендуемо, для рисования дергающегося человека в мультике
+.RE
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBx - отвечает за положение человечка относительно X\fP
+.RS 4
+y - отвечает за положение человечка относительно Y headR - размер головы (для истинного размера - 10) headColor - цвет заливки обводки головы headOutSise - размер линии обводки головы headFillColor - цвет заливки основного пространства головы bodyColor - цвет заливки тела bodySise - размер линии символа handHappy - если 1, то поднимает руки, если 0, то нет face - если 1, то отображает достаточно кривое лицо (глаза и рот)
+.RE
+.PP
+.PP
+.nf
+drawHuman(450, 400, 40, TX_BLACK, 5, TX_WHITE, TX_BLACK, 5, false, true);//рисуем спокойного человечка
+txSleep(500);
+drawHuman(450, 400, 40, TX_BLACK, 5, TX_WHITE, TX_BLACK, 5, false, true);//ТЕПЕРЬ ОН ОЖИЛ, БЕГИТЕ!
+.fi
+.PP
+ 
+.SS "void drawNarutoAll (int z, int k, int L, COLORREF faceColor, COLORREF eyeColor, COLORREF beltColor, bool animation, COLORREF upHairColor, COLORREF middleHairColor, COLORREF downHairColor)"
+
+.PP
+Рисует НАРУТО\&. Рисует только голову! Очень много кода, и, наверное это самый лучший объект\&. Код собиранный по частям! 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBz - отвечает за положение головы относительно X (центр дома - центр окна)\fP
+.RS 4
+k - отвечает за положение головы относительно Y (центр дома - центр окна) L - размер волос faceColor - цвет лица (заливка+контур) eyeColor - цвет глаз (заливка+контур) beltColor - цвет повязки (заливка+контур) animation - true = анимация рта upHairColor - цвет верхних волос middleHairColor - цвет серединных волос downHairColor - цвет нижних волос
+.RE
+.PP
+.PP
+.nf
+drawNarutoAll(950, 500, 5, TX_PINK, TX_CUAN, TX_BLUE, true, TX_RED, TX_ORANGE, TX_YELLOW);
+.fi
+.PP
+ 
+.SS "void drawNarutoBelt (int z, int k, COLORREF beltColor)"
+
+.SS "void drawNarutoFace (int z, int k, COLORREF faceColor, COLORREF eyeColor, bool animation)"
+
+.SS "void drawNarutoHair (int z, int k, int L, COLORREF upHairColor, COLORREF middleHairColor, COLORREF downHairColor)"
+
+.SS "void drawNarutoMouth (int z, int k, bool animation)"
+
+.SS "void drawPacman (int x, int y, int headR, int eatR, int eyeR, COLORREF pacColor, COLORREF pacFillColor, COLORREF eyeColor, COLORREF eyeFillColor, COLORREF eatColor, COLORREF eatFillColor)"
+
+.PP
+Рисует Пакмена\&. Обычный Пакмен\&. 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBx - отвечает за положение пакмена относительно X\fP
+.RS 4
+y - отвечает за положение пакмена относительно Y headR - радиус пакмена eatR - радиус еды для пакмена eyeR - радиус глаза pacColor - цвет обводки Пакмена pacFillColor - цвет заливки Пакмена eyeColor - цвет обводки глаза eyeFillColor - цвет заливки глаза eatColor - цвет обводки еды eatFillColor - цвет заливки еды
+.RE
+.PP
+.PP
+.nf
+drawPacman(750, 400, 192, 10, 25, TX_YELLOW, TX_YELLOW, TX_BLACK, TX_BLACK, TX_NULL, TX_NULL);
+.fi
+.PP
+ 
+.SS "void drawStarLogo (int x, int y, double s)"
+
+.PP
+Рисует логотип StarWars\&. 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Логотип - не текстовый вид, все отрисовывается отдельно 
+.RE
+.PP
+\fBx - отвечает за положение верхнего левого угла логотипа относительно X\fP
+.RS 4
+y - отвечает за положение верхнего левого угла логотипа относительно Y s - размер логотипа (для истинного размера - 1)
+.RE
+.PP
+.PP
+.nf
+drawStarLogo(300, 250, 2);//рисуем логотип
+.fi
+.PP
+ 
+.SS "void drawSun (int x, int y, int r, COLORREF sunColor, int sunOutSise, COLORREF sunFillColor, COLORREF sunLineColor, int sunLineSise, bool faceSun, bool middleLine, bool otherLine)"
+
+.PP
+Рисует солнышко\&. ОНО ОЧЕНЬ УПОРОТОЕ, ИСПОЛЬЗУЙТЕ НА СВОЙ СТАРХ И РИСК 
+.PP
+\fBПредупреждения:\fP
+.RS 4
+Здесь куча параметров, и все они обязательны! БУДЬТЕ ВНИМАТЕЛЬНЫ!! 
+.RE
+.PP
+\fBx - отвечает за положение солнца относительно X\fP
+.RS 4
+y - отвечает за положение солнца относительно Y r - размер солнца (для истинного размера - 25) sunColor - цвет заливки обводки солнца sunOutSise - размер линии обводки солнца sunFillColor - цвет заливки основного пространства солнца sunLineColor - цвет заливки лучей sunLineSise - размер лучей faceSun - если 1, отображает достаточно кривое лицо (глаза и рот) middleLine - если 1, то рисует серединные линии 4 сторон (под 90, 180, -90, 0 градусов) otherLine - если 1, то рисует побочные линии 4 сторон
+.RE
+.PP
+.PP
+.nf
+drawSun(75, 75, 25, MYNEWYELLOW, 2, MYNEWYELLOW, MYNEWYELLOW, 2, true, true, false);//рисуем солнце
+txSleep(500);
+drawSun(75, 75, 25, MYNEWYELLOW, 2, MYNEWYELLOW, MYNEWYELLOW, 2, true, false, true);//также рисуем солнце, но уже немного анимированное
+.fi
+.PP
+ 
+.SH "Переменные"
+.PP 
+.SS "COLORREF MYNEWBLUE = RGB (0, 0, 128)"
+
+.SS "COLORREF MYNEWBLUE2 = RGB (0, 191, 255)"
+
+.SS "COLORREF MYNEWBROWN = RGB (143, 60, 18)"
+
+.SS "COLORREF MYNEWDARKGOLD = RGB (255, 187, 60)"
+
+.SS "COLORREF MYNEWFACE = RGB (253, 228, 200)"
+
+.SS "COLORREF MYNEWGRAY = RGB (192, 192, 192)"
+
+.SS "COLORREF MYNEWMOUNTH = RGB (250, 128, 114)"
+
+.SS "COLORREF MYNEWORANGE = RGB (255, 165, 0)"
+
+.SS "COLORREF MYNEWRED = RGB (255, 0, 0)"
+
+.SS "COLORREF MYNEWYELLOW = RGB (255, 255, 0)"
+
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для My Project из исходного текста\&.
